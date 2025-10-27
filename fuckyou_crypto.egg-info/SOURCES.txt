@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.py
+fuckyou_crypto/__init__.py
+fuckyou_crypto/core.py
+fuckyou_crypto/encoder.py
+fuckyou_crypto/noise.py
+fuckyou_crypto.egg-info/PKG-INFO
+fuckyou_crypto.egg-info/SOURCES.txt
+fuckyou_crypto.egg-info/dependency_links.txt
+fuckyou_crypto.egg-info/entry_points.txt
+fuckyou_crypto.egg-info/requires.txt
+fuckyou_crypto.egg-info/top_level.txt

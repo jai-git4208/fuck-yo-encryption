@@ -1,0 +1,2 @@
+[console_scripts]
+fuckyou = fuckyou_crypto.cli:main
