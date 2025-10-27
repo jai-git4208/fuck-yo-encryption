@@ -1,6 +1,6 @@
 [build-system]
 requires = ["setuptools>=61.0", "wheel"]
-build-backend = "setuptools.build_backend"
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "fuckyou-crypto"
@@ -31,10 +31,10 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/fuckyou-crypto"
-Documentation = "https://github.com/yourusername/fuckyou-crypto#readme"
-Repository = "https://github.com/yourusername/fuckyou-crypto"
-Issues = "https://github.com/yourusername/fuckyou-crypto/issues"
+Homepage = "https://github.com/jai-git4208/fuck-yo-encryption"
+Documentation = "https://github.com/jai-git4208/fuck-yo-encryption#readme"
+Repository = "https://github.com/jai-git4208/fuck-yo-encryption"
+Issues = "https://github.com/jai-git4208/fuck-yo-encryption/issues"
 
 [project.scripts]
 fuckyou = "fuckyou_crypto.cli:main"
