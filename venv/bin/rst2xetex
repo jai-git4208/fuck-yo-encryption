@@ -1,8 +1,7 @@
 #!/media/jaimin-pansal/6b674f6e-6f43-4b72-b9aa-5bcadc8fd779/programs/fuck-yo-encryption/venv/bin/python3
-# -*- coding: utf-8 -*-
-import re
 import sys
 from docutils.core import rst2xetex
 if __name__ == '__main__':
-    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    if sys.argv[0].endswith('.exe'):
+        sys.argv[0] = sys.argv[0][:-4]
     sys.exit(rst2xetex())
