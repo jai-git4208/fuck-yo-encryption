@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_backend"
+
+[project]
+name = "fuckyou-crypto"
+version = "1.0.0"
+description = "Secure encryption with FUCKYOU encoding"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Jaimin Pansal", email = "jaiminpansal@gmail.com"}
+]
+keywords = ["encryption", "cryptography", "security", "obfuscation", "fuckyou"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Security :: Cryptography",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+dependencies = [
+    "cryptography>=41.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/fuckyou-crypto"
+Documentation = "https://github.com/yourusername/fuckyou-crypto#readme"
+Repository = "https://github.com/yourusername/fuckyou-crypto"
+Issues = "https://github.com/yourusername/fuckyou-crypto/issues"
+
+[project.scripts]
+fuckyou = "fuckyou_crypto.cli:main"
+
+[tool.setuptools]
+packages = ["fuckyou_crypto"]
