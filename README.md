@@ -185,7 +185,7 @@ for any data loss, angry sysadmins, or raised eyebrows from security auditors.
 ## Support
 
 If you encounter issues, please report them on GitHub:
-https://github.com/yourusername/fuckyou-crypto/issues
+https://github.com/jai-git4208/fuck-yo-encryption/issues
 
 ---
 
