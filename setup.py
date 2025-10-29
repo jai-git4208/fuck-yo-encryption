@@ -6,12 +6,12 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="fuckyou-crypto",
     version="1.0.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Jaimin Pansal",
+    author_email="jaiminpansal@gmail.com",
     description="Secure encryption with FUCKYOU encoding - Military-grade security with maximum attitude",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/fuckyou-crypto",
+    url="https://github.com/jai-git/fuck-yo-encryption",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -37,7 +37,7 @@ setup(
     },
     keywords="encryption cryptography security obfuscation fuckyou",
     project_urls={
-        "Bug Reports": "https://github.com/yourusername/fuckyou-crypto/issues",
-        "Source": "https://github.com/yourusername/fuckyou-crypto",
+        "Bug Reports": "https://github.com/jai-git4208/fuck-yo-encryption/issues",
+        "Source": "https://github.com/jai-git4208/fuck-yo-encryption",
     },
 )
