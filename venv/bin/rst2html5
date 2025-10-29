@@ -1,7 +1,0 @@
-#!/media/jaimin-pansal/6b674f6e-6f43-4b72-b9aa-5bcadc8fd779/programs/fuck-yo-encryption/venv/bin/python3
-import sys
-from docutils.core import rst2html5
-if __name__ == '__main__':
-    if sys.argv[0].endswith('.exe'):
-        sys.argv[0] = sys.argv[0][:-4]
-    sys.exit(rst2html5())
