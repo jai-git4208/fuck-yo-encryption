@@ -34,7 +34,7 @@ print(result['camo'])
 # Decrypt
 plaintext = decrypt(
     result['camo'], 
-    password="p@ssw0rd", 
+    key_or_password="p@ssw0rd", 
     salt=result['salt'],
     is_password=True
 )
