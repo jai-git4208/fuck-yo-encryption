@@ -4,7 +4,7 @@
 
 Encrypt your sensitive data using only the letters F, U, C, K, Y, O. Your encrypted messages will look like profanity-laden gibberish while maintaining industry-standard AES-128 security.
 
-[![PyPI version](https://badge.fury.io/py/fuckyou-crypto.svg)](https://badge.fury.io/py/fuckyou-crypto)
+![PyPI](https://img.shields.io/pypi/v/fuckyou_crypto)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Why?
